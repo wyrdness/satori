@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/satori",
     "maintainers": [
       {
@@ -16,72 +16,116 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "satori",
-    "name": "Satori - The Mind-Reading Yokai",
-    "aliases": [],
+    "name": "Satori",
+    "aliases": [
+      { "name": "覺", "language": "Japanese (kanji)", "meaning": "'awareness, awakening' — name used by Toriyama Sekien" },
+      { "name": "Satori", "language": "Japanese", "meaning": "'understanding', 'awareness'" },
+      { "name": "Yamako", "language": "Japanese (玃)", "meaning": "Chinese-origin precursor figure: an ape-man of mountain folklore" }
+    ],
     "category": "ENTITY_SPIRIT",
-    "subcategory": "Unknown",
+    "subcategory": "Japanese mountain yokai (mind-reader)",
     "tags": [
+      "japan",
+      "yokai",
       "folklore",
-      "mythology"
+      "mind-reading",
+      "mountains",
+      "edo-period",
+      "toriyama-sekien"
     ],
     "status": "documented",
     "description": {
-      "summary": "A woodcutter in Hida mountains encounters satori.",
-      "full": "A woodcutter in Hida mountains encounters satori. As he thinks about throwing his axe, the satori says, \\\"You're thinking of throwing your axe at me, but you won't.\\\" Frustrated and terrified, the woodcutter eventually gives up and flees."
+      "summary": "A Japanese mountain yokai shaped like an ape-like man, said to inhabit the mountains of Hida and Mino (modern Gifu Prefecture). The Satori reads a person's thoughts and speaks them aloud, but is paradoxically driven off by something genuinely unexpected.",
+      "full": "The Satori (覺 or さとり, 'awareness') is a yokai of Japanese folklore, classically located in the mountains of Hida and Mino — the area corresponding to modern Gifu Prefecture in central Honshu. It is described as a hairy, ape-like or monkey-like humanoid that approaches solitary woodcutters or travellers in the mountain forest. Its defining ability is mind-reading: it speaks the human's thoughts aloud the moment they are formed, faster than the human can react, robbing the person of any plan to fight or flee. Folktales typically resolve in one of two ways: the human gives up and accepts the encounter, after which the Satori loses interest and leaves; or, more famously, the person frightens the Satori off by accident — a stray spark, a falling log, a snapped tool — because something genuinely unexpected (and therefore unthinkable) is the one thing the Satori cannot anticipate. The figure was canonised in print by the Edo-period artist Toriyama Sekien in his yokai compendium 'Konjaku Hyakki Shūi' (今昔百鬼拾遺, 1781), where it is depicted as the 'kaku' (覺) and explicitly said to live deep in the mountains of Hida and Mino. Sekien drew on the earlier Chinese-derived 'yamako' (玃) tradition recorded in the 'Wakan Sansai Zue' (1712), but renamed the figure with the kanji for 'awareness' and re-shaped it as a distinctly Japanese mind-reading yokai."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Japanese, Edo period",
+      "meaning": "From the verb 'satoru' (悟る / 覺る) 'to understand, become aware'; the yokai's name marks its mind-reading ability",
+      "first_use": "Toriyama Sekien, 'Konjaku Hyakki Shūi' (1781)"
     }
   },
+
   "classification": {
     "taxonomy": {
       "category": "ENTITY_SPIRIT",
-      "type": "Unknown",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "type": "Yokai",
+      "subtype": "Mountain ape-yokai",
+      "variant": "Hida–Mino"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "yamako", "name": "Yamako (玃)", "relationship": "superset", "description": "The Chinese-derived 'mountain ape' figure from which the Satori was developed in 18th-century Japanese yokai literature" },
+      { "id": "yamabiko", "name": "Yamabiko", "relationship": "similar", "description": "Another Japanese mountain yokai associated with mysterious echoes" },
+      { "id": "kawauso", "name": "Kawauso (river otter yokai)", "relationship": "related", "description": "A trickster yokai from Toriyama Sekien's same compilations" },
+      { "id": "yamabushi-tengu", "name": "Yamabushi tengu", "relationship": "related", "description": "Another mountain-dwelling supernatural being" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "height": { "min": 1.4, "max": 1.7, "unit": "meters", "confidence": "low" },
+      "coloration": ["dark brown / black hair"],
+      "features": [
+        { "feature": "Ape-like, hairy body", "description": "Resembles a monkey-man or hairy yamabushi-like figure", "frequency": "always" },
+        { "feature": "Human-like upright posture", "description": "Stands and moves on two legs in most depictions", "frequency": "always" },
+        { "feature": "Speaking mouth", "description": "Articulate human speech, used to repeat the victim's thoughts", "frequency": "always" }
+      ],
+      "morphology": "A bipedal hairy humanoid in the lineage of the Chinese 'yamako' ape-man, redrawn by Toriyama Sekien as an explicitly mind-reading yokai."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Mind-reading", "description": "Reads human thoughts as fast as they form and speaks them aloud, frustrating any plan to attack or flee", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Vulnerability to the unexpected", "description": "Cannot anticipate genuinely accidental events; in many tales the Satori is driven off when a tool slips, a spark flies, or a branch unexpectedly breaks", "frequency": "common", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "variable",
+      "disposition": "curious",
+      "social_structure": "solitary",
+      "habitat_preference": ["deep mountain forest", "Hida mountains", "Mino mountains"],
+      "diet": "Said in some accounts to attempt to eat humans; other accounts treat it as a non-violent observer",
+      "patterns": [
+        "Approaches solitary travellers and woodcutters",
+        "Disengages once it has read a person's mind to its satisfaction or once startled by an accident"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Folkloric range is the mountainous interior of central Honshu, particularly the historical provinces of Hida and Mino (modern Gifu Prefecture).",
+      "continents": ["Asia"],
+      "countries": ["Japan"],
+      "regions": ["Hida Province (modern northern Gifu)", "Mino Province (modern southern Gifu)", "Chūbu region"]
     },
     "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
-        "circa": true,
-        "source": "Traditional folklore"
-      }
+        "date": "1781",
+        "circa": false,
+        "source": "Toriyama Sekien, 'Konjaku Hyakki Shūi' (1781)"
+      },
+      "peak_activity_periods": [
+        { "period": "Late Edo period (1781–1868)", "description": "Wide circulation through Sekien's prints and subsequent yokai compendia" },
+        { "period": "1968–present", "description": "Major revival via Mizuki Shigeru's 'GeGeGe no Kitarō' and modern yokai illustration" }
+      ]
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Japanese folk belief in mountain spirits (yama no kami) and mountain monkey-men, drawing on Chinese 'yamako' (玃) traditions imported in the early-modern period.",
+      "earliest_accounts": "The Chinese-derived 'yamako' is described in the encyclopaedia 'Wakan Sansai Zue' (1712); the explicitly mind-reading Japanese form of the figure first appears in Toriyama Sekien's 'Konjaku Hyakki Shūi' (1781).",
+      "folklore_connections": "Connected to the broader yokai tradition (particularly Toriyama Sekien's late-18th-century corpus) and via the yamako precursor to Chinese mountain-ape lore."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1712-01-01", "event": "Terashima Ryōan's 'Wakan Sansai Zue' published, including the Chinese-derived 'yamako' (玃) ape-man entry that prefigures the Satori", "significance": "Establishes the textual lineage Sekien later transforms into the Satori", "source": "Terashima, R. (1712), 'Wakan Sansai Zue'" },
+      { "date": "1781-01-01", "event": "Toriyama Sekien publishes 'Konjaku Hyakki Shūi' featuring the Satori (覺) of Hida and Mino", "significance": "Canonical first depiction and naming of the Satori as a distinct yokai", "source": "Toriyama, S. (1781), 'Konjaku Hyakki Shūi'" },
+      { "date": "1968-01-06", "event": "Mizuki Shigeru's 'GeGeGe no Kitarō' television anime begins broadcasting, eventually featuring the Satori among its yokai cast", "significance": "Mass-media revival of Edo yokai including the Satori", "source": "Toei Animation broadcast records" }
+    ],
+    "modern_era": "The Satori has become a fixture of Japanese yokai-art revivalism, particularly through the work of Mizuki Shigeru, the Kyoto International Manga Museum, and contemporary horror manga and games (most notably the Touhou Project, where 'Satori Komeiji' is a major character)."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
@@ -92,35 +136,86 @@
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "satori-evidence-sekien-1781",
+        "type": "woodblock print",
+        "name": "Toriyama Sekien, 'Satori' (Konjaku Hyakki Shūi, 1781)",
+        "date": "1781",
+        "description": "The canonical Edo-period illustration and textual account of the Satori as a Hida-Mino mountain yokai capable of speaking a person's thoughts aloud.",
+        "status": "verified",
+        "analysis": "Verified primary text and image of the Satori in the Japanese yokai canon.",
+        "source": "Toriyama, S. (1781), 'Konjaku Hyakki Shūi'"
+      }
+    ]
   },
+
   "theories": {
     "paranormal": [],
     "scientific": [],
-    "skeptical": []
+    "skeptical": [
+      {
+        "name": "Edo-period literary yokai",
+        "description": "The Satori is best understood as a literary yokai elaborated by Toriyama Sekien from earlier Chinese-derived 'yamako' material; it is part of a long tradition of allegorical mountain spirits used to dramatise solitary fears and the limits of human cunning.",
+        "proponents": ["Yokai studies scholars such as Komatsu Kazuhiko"],
+        "evidence_cited": ["Direct textual lineage from Wakan Sansai Zue (1712) to Konjaku Hyakki Shūi (1781)", "Genre conventions of Edo yokai compendia"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Hida–Mino mountain folklore",
+        "Edo-period yokai print tradition"
+      ],
+      "stories": [
+        "The woodcutter who frightens off a Satori when his axe-handle slips",
+        "The traveller whose every plan is read aloud and who eventually gives up"
+      ],
+      "beliefs": "Solitary travel in deep mountain forest is dangerous; the unknowable accident is the only counter to a being that knows your thoughts."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
-      "games": [],
-      "other": []
+      "literature": [
+        "Toriyama Sekien — 'Konjaku Hyakki Shūi' (1781)",
+        "Mizuki Shigeru — extensive yokai bestiaries including the Satori"
+      ],
+      "film_tv": [
+        "GeGeGe no Kitarō (Toei Animation, 1968 onward, multiple series)"
+      ],
+      "games": [
+        "Touhou Project — 'Satori Komeiji', a mind-reading character explicitly modelled on the yokai (ZUN, 'Subterranean Animism', 2008)"
+      ],
+      "other": [
+        "Frequently included in yokai art-prints, museum exhibitions, and contemporary kaidan storytelling"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
-    "organizations": [],
-    "ongoing_studies": "None documented"
+    "researchers": [
+      { "name": "Toriyama Sekien", "affiliation": "Edo-period ukiyo-e artist", "contribution": "Canonised the Satori as a distinct yokai in 'Konjaku Hyakki Shūi' (1781)", "period": "18th century" },
+      { "name": "Mizuki Shigeru", "affiliation": "Mizuki Productions", "contribution": "20th-century revival of Edo yokai including the Satori through manga and animation", "period": "1960s–2010s" },
+      { "name": "Komatsu Kazuhiko", "affiliation": "International Research Center for Japanese Studies", "contribution": "Leading academic on Japanese yokai studies; situates the Satori in the broader yokai tradition", "period": "1980s–present" }
+    ],
+    "organizations": [
+      { "name": "International Research Center for Japanese Studies (Nichibunken)", "url": "https://www.nichibun.ac.jp", "focus": "Academic research on yokai and Japanese folklore" },
+      { "name": "Kyoto International Manga Museum", "url": "https://www.kyotomm.jp", "focus": "Public engagement with yokai imagery and manga" }
+    ],
+    "ongoing_studies": "Active scholarship on yokai under the rubric of 'yokai studies' (yokai-gaku) in Japanese academia."
   },
-  "sources": []
+
+  "sources": [
+    { "id": "wikipedia-satori", "type": "website", "title": "Satori (folklore) — Wikipedia", "url": "https://en.wikipedia.org/wiki/Satori_(folklore)", "accessed": "2026-05-07" },
+    { "id": "sekien-1781", "type": "book", "title": "Konjaku Hyakki Shūi (今昔百鬼拾遺)", "authors": ["Toriyama Sekien"], "date": "1781" },
+    { "id": "wakan-sansai-zue", "type": "book", "title": "Wakan Sansai Zue (和漢三才図会)", "authors": ["Terashima Ryōan"], "date": "1712" },
+    { "id": "foster-2015", "type": "book", "title": "The Book of Yokai: Mysterious Creatures of Japanese Folklore", "authors": ["Michael Dylan Foster"], "publication": "University of California Press", "date": "2015", "isbn": "978-0520271029" }
+  ]
 }

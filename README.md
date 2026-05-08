@@ -1,307 +1,156 @@
-# Satori - The Mind-Reading Yokai
+# Satori
 
-## Overview
-**Satori** (覚, "enlightenment" or "understanding") is a supernatural creature from Japanese folklore that possesses the terrifying ability to read human minds and speak thoughts aloud before they are uttered. Native to the mountains of Hida and Mino provinces (modern-day Gifu Prefecture), the satori appears as a monkey-like or bear-like yokai covered in dark fur, with deeply intelligent eyes that seem to pierce through to one's innermost thoughts. Despite its fearsome ability, the satori is generally harmless—its only "attack" is the psychological distress caused by having one's private thoughts exposed, often causing humans to flee in embarrassment or existential horror rather than physical danger.
+> A Japanese mountain yokai shaped like an ape-like man, said to inhabit the mountains of Hida and Mino (modern Gifu Prefecture). The Satori reads a person's thoughts and speaks them aloud, but is paradoxically driven off by something genuinely unexpected.
 
-**Category:** ENTITY_SPIRIT  
-**Danger Level:** Moderate (psychological trauma, no physical harm)  
-**Origin:** Japanese folklore, Gifu Prefecture mountains  
-**Active Period:** Edo period texts (1603-1868) through present  
-**Status:** Well-documented in Japanese folklore and modern media
+[![API Version](https://img.shields.io/badge/api-v1.1.0-blue)]() [![Last Updated](https://img.shields.io/badge/updated-2026-05-07-green)]() [![Sightings](https://img.shields.io/badge/sightings-0-orange)]() ![Status](https://img.shields.io/badge/status-documented-blue)
 
 ---
+## Quick Reference
 
+| Property | Value |
+|---|---|
+| **ID** | `satori` |
+| **Category** | ENTITY_SPIRIT |
+| **Subcategory** | Japanese mountain yokai (mind-reader) |
+| **First recorded** | 1712-01-01 |
+| **Primary range** | Folkloric range is the mountainous interior of central Honshu, particularly the historical provinces of Hida and Mino (modern Gifu Prefecture) |
+| **Status** | documented |
+
+---
+## Overview
+
+The Satori (覺 or さとり, 'awareness') is a yokai of Japanese folklore, classically located in the mountains of Hida and Mino — the area corresponding to modern Gifu Prefecture in central Honshu. It is described as a hairy, ape-like or monkey-like humanoid that approaches solitary woodcutters or travellers in the mountain forest. Its defining ability is mind-reading: it speaks the human's thoughts aloud the moment they are formed, faster than the human can react, robbing the person of any plan to fight or flee. Folktales typically resolve in one of two ways: the human gives up and accepts the encounter, after which the Satori loses interest and leaves; or, more famously, the person frightens the Satori off by accident — a stray spark, a falling log, a snapped tool — because something genuinely unexpected (and therefore unthinkable) is the one thing the Satori cannot anticipate. The figure was canonised in print by the Edo-period artist Toriyama Sekien in his yokai compendium 'Konjaku Hyakki Shūi' (今昔百鬼拾遺, 1781), where it is depicted as the 'kaku' (覺) and explicitly said to live deep in the mountains of Hida and Mino. Sekien drew on the earlier Chinese-derived 'yamako' (玃) tradition recorded in the 'Wakan Sansai Zue' (1712), but renamed the figure with the kanji for 'awareness' and re-shaped it as a distinctly Japanese mind-reading yokai.
+
+---
+## Names & Aliases
+
+| Name | Origin | Meaning |
+|---|---|---|
+| 覺 | Japanese (kanji) | 'awareness, awakening' — name used by Toriyama Sekien |
+| Satori | Japanese | 'understanding', 'awareness' |
+| Yamako | Japanese (玃) | Chinese-origin precursor figure: an ape-man of mountain folklore |
+
+## Etymology
+
+- **Origin**: Japanese, Edo period
+- **Meaning**: From the verb 'satoru' (悟る / 覺る) 'to understand, become aware'; the yokai's name marks its mind-reading ability
+- **First use**: Toriyama Sekien, 'Konjaku Hyakki Shūi' (1781)
+
+---
+## Related Phenomena
+
+- [Yamako (玃)](../yamako/) — _superset_: The Chinese-derived 'mountain ape' figure from which the Satori was developed in 18th-century Japanese yokai literature
+- [Yamabiko](../yamabiko/) — _similar_: Another Japanese mountain yokai associated with mysterious echoes
+- [Kawauso (river otter yokai)](../kawauso/) — _related_: A trickster yokai from Toriyama Sekien's same compilations
+- [Yamabushi tengu](../yamabushi-tengu/) — _related_: Another mountain-dwelling supernatural being
+
+---
 ## Physical Description
 
-**Appearance Variations**:
-- **Monkey-like Form** (most common):
-  * Size of a large monkey or small ape
-  * Dark brown or black fur covering body
-  * Intelligent, penetrating eyes
-  * Upright posture
-  * Human-like facial expressions
-  
-- **Bear-like Form** (regional variant):
-  * Larger, more robust build
-  * Shaggy dark fur
-  * Still possesses distinct intelligence
-  * Less aggressive than actual bears
+- **Height**: 1.4–1.7 meters _(low confidence)_
+- **Coloration**: dark brown / black hair
+- **Morphology**: A bipedal hairy humanoid in the lineage of the Chinese 'yamako' ape-man, redrawn by Toriyama Sekien as an explicitly mind-reading yokai.
 
-**Distinctive Features**:
-- Eyes that seem to see through to one's soul
-- No visible mouth movement when speaking thoughts
-- Materialization from mountain mists
-- Quiet, deliberate movements
-- Aura of uncanny intelligence
+### Features
 
----
+| Feature | Description | Frequency |
+|---|---|---|
+| Ape-like, hairy body | Resembles a monkey-man or hairy yamabushi-like figure | always |
+| Human-like upright posture | Stands and moves on two legs in most depictions | always |
+| Speaking mouth | Articulate human speech, used to repeat the victim's thoughts | always |
 
-## Mind-Reading Abilities
+## Reported Abilities
 
-**Primary Power**: Complete telepathy
-- Reads surface thoughts instantly
-- Accesses deeper intentions and memories
-- Speaks thoughts aloud before person can vocalize
-- Cannot be deceived or fooled
-- Knows what you will say before you say it
+| Ability | Description | Frequency | Evidence |
+|---|---|---|---|
+| Mind-reading | Reads human thoughts as fast as they form and speaks them aloud, frustrating any plan to attack or flee | always | folklore |
+| Vulnerability to the unexpected | Cannot anticipate genuinely accidental events; in many tales the Satori is driven off when a tool slips, a spark flies, or a branch unexpectedly breaks | common | folklore |
 
-**Effects on Victims**:
-1. **Initial Encounter**: Confusion as creature speaks your thoughts
-2. **Recognition**: Horror at mind-reading realization
-3. **Psychological Impact**: Violation of mental privacy
-4. **Common Response**: Flight in terror and shame
-5. **Lasting Effect**: Paranoia, self-consciousness
+## Behavior
 
-**Limitations**:
-- Reads only human minds (not animals)
-- Present thoughts, not necessarily distant future
-- Cannot control minds, only read them
-- Doesn't seem interested in pursuing fleeing humans
+- **Activity**: variable
+- **Disposition**: curious
+- **Social structure**: solitary
+- **Habitat**: deep mountain forest, Hida mountains, Mino mountains
+- **Diet**: Said in some accounts to attempt to eat humans; other accounts treat it as a non-violent observer
 
 ---
+## Distribution
 
-## Traditional Tales and Encounters
+Folkloric range is the mountainous interior of central Honshu, particularly the historical provinces of Hida and Mino (modern Gifu Prefecture).
 
-**Classic Satori Story Structure**:
-1. Traveler camps in mountains
-2. Hears rustling, senses presence
-3. Thinks: "What was that sound?"
-4. Voice responds: "You're wondering what that sound was"
-5. Traveler realizes mind is being read
-6. Every thought spoken aloud by satori
-7. Terror and flight ensue
-
-**Famous Historical Accounts**:
-
-**Tale from "Ehon Hyaku Monogatari"** (1841):
-A woodcutter in Hida mountains encounters satori. As he thinks about throwing his axe, the satori says, "You're thinking of throwing your axe at me, but you won't." Frustrated and terrified, the woodcutter eventually gives up and flees.
-
-**Accidental Defeat Method**:
-One story tells of a woodcutter who, exhausted and not thinking, accidentally drops his axe. The satori, unable to anticipate a non-thought action, is struck and flees, never having encountered "mindlessness."
-
-**Regional Variations**:
-- **Gifu Prefecture**: Original satori homeland
-- **Nearby mountains**: Similar creatures reported
-- **Hokuriku region**: Related mind-reading yokai tales
 
 ---
+## Historical Timeline
 
-## Cultural Significance
+| Date | Event | Significance |
+|---|---|---|
+| 1712-01-01 | Terashima Ryōan's 'Wakan Sansai Zue' published, including the Chinese-derived 'yamako' (玃) ape-man entry that prefigures the Satori | Establishes the textual lineage Sekien later transforms into the Satori |
+| 1781-01-01 | Toriyama Sekien publishes 'Konjaku Hyakki Shūi' featuring the Satori (覺) of Hida and Mino | Canonical first depiction and naming of the Satori as a distinct yokai |
+| 1968-01-06 | Mizuki Shigeru's 'GeGeGe no Kitarō' television anime begins broadcasting, eventually featuring the Satori among its yokai cast | Mass-media revival of Edo yokai including the Satori |
 
-**Buddhist Philosophy Parallels**:
-The name "satori" is identical to the Buddhist term for enlightenment (悟り/覚り), creating profound irony:
-- **Buddhist Satori**: Liberation through understanding one's own mind
-- **Yokai Satori**: Horror at having mind understood by other
-- **Inverse Enlightenment**: Self-knowledge vs. exposed knowledge
+## Evidence
 
-**Psychological Themes**:
-1. **Privacy Anxiety**: Fear of thoughts being known
-2. **Social Mask**: Gap between inner thoughts and outer behavior
-3. **Authentic Self**: What if all pretense stripped away?
-4. **Mental Sanctuary**: Violation of last private space
+### Documentary
 
-**Moral Lessons**:
-- **Honesty**: Better to match actions to thoughts
-- **Mindfulness**: Being aware of one's own thoughts
-- **Humility**: We all have thoughts we're ashamed of
-- **Compassion**: Everyone has hidden struggles
+| Name | Date | Description | Status |
+|---|---|---|---|
+| Toriyama Sekien, 'Satori' (Konjaku Hyakki Shūi, 1781) | 1781 | The canonical Edo-period illustration and textual account of the Satori as a Hida-Mino mountain yokai capable of speaking a person's thoughts aloud. | verified |
 
 ---
+## Theories & Explanations
 
-## Modern Interpretations
+### Skeptical
 
-**Contemporary Relevance**:
+**Edo-period literary yokai** _(Yokai studies scholars such as Komatsu Kazuhiko)_
 
-**Digital Privacy Era**:
-Satori as metaphor for:
-- Data mining and algorithmic prediction
-- Social media surveillance
-- Targeted advertising (reads desires)
-- AI that anticipates needs
-- Loss of mental privacy in digital age
+The Satori is best understood as a literary yokai elaborated by Toriyama Sekien from earlier Chinese-derived 'yamako' material; it is part of a long tradition of allegorical mountain spirits used to dramatise solitary fears and the limits of human cunning.
 
-**Psychological Horror**:
-- Anxiety disorders: Feeling constantly observed
-- Social anxiety: Fear of judgment for thoughts
-- Paranoia: "They know what I'm thinking"
-- Modern isolation: Inability to truly hide self
 
-**Popular Culture Appearances**:
-- Manga and anime: Satori characters (Touhou Project's Satori Komeiji)
-- Horror stories: Mind-reading monsters
-- Video games: Telepathic enemies
-- Urban legends: Modern satori sightings
+## Popular Culture
 
-**Scientific Parallels**:
-- Brain imaging technology (fMRI reading thoughts)
-- AI emotion recognition
-- Predictive algorithms
-- Neuroscience advancing toward thought-reading
+**Literature**: Toriyama Sekien — 'Konjaku Hyakki Shūi' (1781); Mizuki Shigeru — extensive yokai bestiaries including the Satori
+
+**Film / TV**: GeGeGe no Kitarō (Toei Animation, 1968 onward, multiple series)
+
+**Games**: Touhou Project — 'Satori Komeiji', a mind-reading character explicitly modelled on the yokai (ZUN, 'Subterranean Animism', 2008)
+
+**Other**: Frequently included in yokai art-prints, museum exhibitions, and contemporary kaidan storytelling
 
 ---
+## Research
 
-## Defense and Encounter Strategies
+### Researchers
 
-**Traditional Methods** (folklore):
+| Name | Affiliation | Contribution | Period |
+|---|---|---|---|
+| Toriyama Sekien | Edo-period ukiyo-e artist | Canonised the Satori as a distinct yokai in 'Konjaku Hyakki Shūi' (1781) | 18th century |
+| Mizuki Shigeru | Mizuki Productions | 20th-century revival of Edo yokai including the Satori through manga and animation | 1960s–2010s |
+| Komatsu Kazuhiko | International Research Center for Japanese Studies | Leading academic on Japanese yokai studies; situates the Satori in the broader yokai tradition | 1980s–present |
 
-**1. Empty Mind Technique**:
-- Stop thinking entirely
-- Act on pure instinct
-- No thoughts to read = satori confused
-- Zen-like mindfulness paradox
+### Organizations
 
-**2. Thought Flooding**:
-- Overwhelm with rapid, chaotic thoughts
-- Too many to speak aloud
-- May confuse or tire the satori
+- [International Research Center for Japanese Studies (Nichibunken)](https://www.nichibun.ac.jp) — Academic research on yokai and Japanese folklore
+- [Kyoto International Manga Museum](https://www.kyotomm.jp) — Public engagement with yokai imagery and manga
 
-**3. Acceptance**:
-- Acknowledge thoughts without shame
-- "Yes, I thought that"
-- Removes power of exposure
-- Satori loses interest
-
-**Modern Protective Interpretation**:
-- Meditation practice
-- Authentic living (align thoughts and actions)
-- Self-acceptance
-- Transparency as protection
+Active scholarship on yokai under the rubric of 'yokai studies' (yokai-gaku) in Japanese academia.
 
 ---
+## Sources
 
-## Academic Analysis
+See [SOURCES.md](SOURCES.md) for the complete bibliography.
 
-**Folkloristic Study**:
 
-**Dr. Michael Dylan Foster** (Yokai studies):
-- Satori represents anxiety about hidden self
-- Edo-period social conformity pressures
-- Buddhist concepts filtered through folk belief
-- Psychological projection of social fears
+## How to Report a Sighting
 
-**Psychological Interpretation**:
-- **Superego Externalization**: Satori as conscience made external
-- **Social Anxiety Manifestation**: Fear of judgment personified
-- **Authenticity Crisis**: Gap between public and private self
-
-**Comparative Folklore**:
-Similar mind-reading beings worldwide:
-- **Odin** (Norse): All-seeing knowledge
-- **Santa Claus**: Knows if you're naughty or nice
-- **God figures**: Omniscient deities in many traditions
-- **Thoughtform beings**: Tulpas, egregores
-
-**Linguistic Analysis**:
-The pun on Buddhist enlightenment term "satori" suggests:
-- Sophisticated wordplay in folklore
-- Buddhist influence on yokai tradition
-- Ironic inversion as literary device
-- Philosophical depth in monster tales
+1. **GitHub Issue**: [Submit Sighting Report](../../issues/new?template=sighting_report.yml)
+2. Provide date, location, witnesses, description, conditions, and any evidence.
 
 ---
+## License
 
-## Philosophical Implications
-
-**Privacy and Personhood**:
-What if thoughts weren't private?
-- Would we still be "ourselves"?
-- Is privacy essential to identity?
-- Social consequences of total transparency?
-
-**Authenticity Questions**:
-- Do we have "true" selves only in our heads?
-- Are we defined by thoughts or actions?
-- Which is more "real"—what we think or what we do?
-
-**Ethical Dimensions**:
-- Right to mental privacy
-- Thought crimes debate
-- Pre-crime and prediction
-- Freedom requires privacy?
-
-**Existential Reflections**:
-- Satori forces confrontation with own thoughts
-- Mirror showing unfiltered self
-- Horror or liberation?
-- Buddhist parallel: Knowing the mind liberates
+Content: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)  
+Data: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)  
 
 ---
-
-## Related Yokai
-
-**Similar Mind/Knowledge Yokai**:
-
-**Nue**: Chimera that causes dread through mysterious presence
-**Mikoshi-nyudo**: Grows taller as you look up (tests reactions)
-**Umibōzu**: Sea spirit that asks questions (tests character)
-
-**Telepathic/Psychic Yokai**:
-Various yokai possess supernatural perception, but satori's complete mind-reading is unique in its specificity and harmlessness combined with psychological terror.
-
----
-
-## Modern Sightings and Claims
-
-**Contemporary Reports**:
-While traditional satori sightings have decreased, modern Japan sees:
-- Hikers in Gifu region reporting eerie "being watched" feelings
-- Urban legends of abandoned areas with "mind-reading presence"
-- Online communities sharing "satori-like" experiences
-- Psychological phenomenon or actual encounters?
-
-**Digital Age "Satori"**:
-Many compare modern experiences to satori:
-- Targeted ads showing exact product you were thinking about
-- Autocomplete knowing what you'll search
-- Recommendation algorithms "reading mind"
-- Smart devices responding to unstated needs
-
----
-
-## Conclusion
-
-The satori stands as one of Japanese folklore's most psychologically sophisticated yokai—a creature whose power lies not in physical harm but in the violation of mental privacy and the horror of having one's innermost thoughts exposed. In an age of increasing digital surveillance, algorithmic prediction, and erosion of privacy, the satori serves as a potent metaphor for modern anxieties about authentic selfhood, social performance, and the last refuge of private interiority.
-
-The yokai asks us: What if there were nowhere left to hide? And perhaps more importantly: What would happen if we no longer needed to?
-
-The Buddhist irony persists—perhaps true satori (enlightenment) comes not from hiding our thoughts but from accepting them, not from fleeing the mind-reader but from becoming comfortable with our own minds being read, ultimately achieving the transparency that paradoxically liberates rather than imprisons.
-
----
-
-## Version History
-- **1.0.0** (2026-01-14): Comprehensive documentation created for FINAL BATCH 39
-
-## Bibliography and Sources
-
-### Primary Japanese Folklore Sources
-1. "Ehon Hyaku Monogatari" (絵本百物語) - Takehara Shunsen (1841)
-2. "Konjaku Gazu Zoku Hyakki" (今昔画図続百鬼) - Toriyama Sekien (1779)
-3. "Gazu Hyakki Yagyō" (画図百鬼夜行) - Toriyama Sekien (1776)
-
-### Academic Studies
-4. Foster, Michael Dylan. "The Book of Yokai" (2015)
-5. Foster, Michael Dylan. "Pandemonium and Parade" (2009)
-6. Mizuki, Shigeru. "Mizuki Shigeru's Yokai Encyclopedia" (multiple volumes)
-7. Reider, Noriko T. "Japanese Demon Lore" (2010)
-
-### Cultural Analysis
-8. Komatsu, Kazuhiko. "An Introduction to Yokai Culture" (2017)
-9. Figal, Gerald. "Civilization and Monsters" (1999)
-
-### Buddhist Philosophy (Satori concept)
-10. Suzuki, D.T. "Essays in Zen Buddhism" (1927)
-11. Kapleau, Philip. "The Three Pillars of Zen" (1965)
-
-### Modern Media and Popular Culture
-12. Touhou Project video game series (featuring Satori Komeiji character)
-13. Various manga and anime featuring satori yokai
-14. Contemporary Japanese horror incorporating satori themes
-
-### Psychological and Philosophical Analysis
-15. Academic articles on privacy and surveillance in Japanese context
-16. Studies on social conformity in Japanese culture
-17. Privacy theory and personhood philosophical texts
-
----
-
-**FINAL BATCH 39 - REACHING 500 TOTAL ENTRIESall* ✓
+_Auto-generated from `api.json`. Do not edit by hand — edit `api.json` and run `make repo-docs`._
